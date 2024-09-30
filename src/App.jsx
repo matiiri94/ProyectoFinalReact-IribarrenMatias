@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import  NavBar from "./componentes/NavBar";
+import  NavBar from "./Components/NavBar";
 import { MainRouter } from './router/MainRouter';
+import './App.css'
+
 MainRouter
 
 const App =() => {

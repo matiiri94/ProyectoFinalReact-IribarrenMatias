@@ -10,21 +10,21 @@ import CartWidget from "./CartWidget";
     return(
         <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="/">TIENDA DE MASCOTAS M </Navbar.Brand>
+          <Navbar.Brand href="/">TIENDA LA NAVE </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/">INICIO</Nav.Link>
               <Nav.Link href="#link">OFERTAS</Nav.Link>
               <NavDropdown title="PRODUCTOS" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">PERROS CACHORROS </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1">COSMETICA </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
-                  GATOS CACHORROS
+                  HOGAR
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">PERROS ADULTOS</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">ELECTRODOMESTICOS</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">
-                  GATOS ADULTOS
+                  TECNOLOGIA
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>

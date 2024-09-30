@@ -1,19 +1,20 @@
-import ItemListContainer from '../Componentes/ItemListContainer';
+import ItemListContainer from '../Components/ItemListContainer';
 import { useGetProducts } from '../hooks/useProducts';
 import { useEffect } from 'react';
 
 export const Home = () => {
 
     useEffect(() => {
-        document.title = "Tienda De Mascotas = Home"
-    })
+        document.title = "TIENDA LA NAVE = Home"
+    },[])
     
     const {productsData} = useGetProducts(15);
 
 
     return (
-        <ItemListContainer productsData={productsData} />
-
+        <div classname="contenedor">
+            <ItemListContainer productsData={productsData} />
+        </div>
     )
 
 }

@@ -6,7 +6,7 @@ import { getProducts } from "../services";
  * @returns {Array}
  */
 
-export const useGetProducts = (limit = 10) => {
+export const useGetProducts = (limit = 30) => {
     const [productsData, setProductsData] = useState([]); 
   
     useEffect(() => {
